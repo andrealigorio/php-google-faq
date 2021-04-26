@@ -6,7 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: black;
 }
@@ -35,7 +35,7 @@ header {
   margin-left: 10px;
 }
 .header_top .text h2 {
-  font-weight: 400;
+  font-weight: 300;
   cursor: pointer;
 }
 
@@ -58,7 +58,7 @@ header {
   height: 100%;
   display: inline-block;
   list-style: none;
-  margin-right: 40px;
+  margin-right: 50px;
   cursor: pointer;
 }
 
@@ -72,13 +72,20 @@ header {
 .faq_box p {
   margin: 20px 0;
 }
+.faq_box ol li::marker {
+  font-weight: bold;
+}
 .faq_box ol > li {
   list-style-position: inside;
+  list-style: bold;
+}
+.faq_box ul {
+  -webkit-margin-start: 40px;
+          margin-inline-start: 40px;
 }
 .faq_box ul > li {
   list-style-type: lower-latin;
   margin: 10px 0;
-  padding: 0 30px;
 }
 
 footer {

@@ -97,7 +97,7 @@
                             <p><?php echo $k; ?></p>
                             <ol>
                                 <?php foreach ($value as $k => $e) { ?>
-                                    <li class="ok"><?php echo $k; ?>
+                                    <li><?php echo $k; ?>
                                         <ul>
                                             <?php foreach ($e as $k) { ?>
                                                 <li><?php echo $k; ?></li>

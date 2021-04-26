@@ -1,7 +1,7 @@
 $headerHeight: 100px;
 $spacing: 20px;
 $fontFamily: 'Roboto', sans-serif;
-$fontWeight: 500;
+$fontWeight: 400;
 $fontSize: 16px;
 $textColor: black;
 $divisorColor: #808080;
@@ -61,7 +61,7 @@ header {
                 height: 100%;
                 display: inline-block;
                 list-style: none;
-                margin-right: $spacing * 2;
+                margin-right: $spacing * 2.5;
                 cursor: pointer;
             }
         }
@@ -77,15 +77,19 @@ header {
         margin: $spacing 0;
     }
     ol {
+        li::marker {
+            font-weight: bold;
+        }
         > li {
             list-style-position: inside;
+            list-style: bold;
         }
     }
     ul {
+        margin-inline-start: $spacing * 2;
         > li {
             list-style-type: lower-latin;
             margin: $spacing * 0.5 0;
-            padding: 0 $spacing * 1.5;
         }
     }
 }
