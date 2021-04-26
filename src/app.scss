@@ -77,19 +77,20 @@ header {
         margin: $spacing 0;
     }
     ol {
+        margin-inline-start: $spacing;
         li::marker {
             font-weight: bold;
         }
         > li {
-            list-style-position: inside;
-            list-style: bold;
+            padding-left: $spacing;
         }
     }
     ul {
-        margin-inline-start: $spacing * 2;
+        margin-inline-start: $spacing * 3;
         > li {
             list-style-type: lower-latin;
             margin: $spacing * 0.5 0;
+            padding-left: $spacing;
         }
     }
 }

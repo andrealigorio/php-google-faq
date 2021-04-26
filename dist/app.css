@@ -72,20 +72,24 @@ header {
 .faq_box p {
   margin: 20px 0;
 }
+.faq_box ol {
+  -webkit-margin-start: 20px;
+          margin-inline-start: 20px;
+}
 .faq_box ol li::marker {
   font-weight: bold;
 }
 .faq_box ol > li {
-  list-style-position: inside;
-  list-style: bold;
+  padding-left: 20px;
 }
 .faq_box ul {
-  -webkit-margin-start: 40px;
-          margin-inline-start: 40px;
+  -webkit-margin-start: 60px;
+          margin-inline-start: 60px;
 }
 .faq_box ul > li {
   list-style-type: lower-latin;
   margin: 10px 0;
+  padding-left: 20px;
 }
 
 footer {
