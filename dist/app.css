@@ -72,8 +72,13 @@ header {
 .faq_box p {
   margin: 20px 0;
 }
-.faq_box ol li {
+.faq_box ol > li {
   list-style-position: inside;
+}
+.faq_box ul > li {
+  list-style-type: lower-latin;
+  margin: 10px 0;
+  padding: 0 30px;
 }
 
 footer {

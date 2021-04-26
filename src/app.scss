@@ -77,8 +77,15 @@ header {
         margin: $spacing 0;
     }
     ol {
-        li {
+        > li {
             list-style-position: inside;
+        }
+    }
+    ul {
+        > li {
+            list-style-type: lower-latin;
+            margin: $spacing * 0.5 0;
+            padding: 0 $spacing * 1.5;
         }
     }
 }

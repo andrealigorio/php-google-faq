@@ -93,11 +93,17 @@
                             <p><?php echo $value; ?></p>
                         <?php } ?>
                     <?php } else { ?>
-                        <?php foreach ($element as $k => $value) {?>
+                        <?php foreach ($element as $k => $value) { ?>
                             <p><?php echo $k; ?></p>
                             <ol>
-                                <?php foreach ($value as $k => $e) {?>
-                                    <li><?php echo $k;?></li>
+                                <?php foreach ($value as $k => $e) { ?>
+                                    <li class="ok"><?php echo $k; ?>
+                                        <ul>
+                                            <?php foreach ($e as $k) { ?>
+                                                <li><?php echo $k; ?></li>
+                                            <?php } ?>
+                                        </ul>
+                                    </li>
                                 <?php } ?>
                             </ol>
                         <?php } ?>
