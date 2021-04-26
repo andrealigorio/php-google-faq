@@ -61,3 +61,24 @@ header {
   margin-right: 40px;
   cursor: pointer;
 }
+
+.faq_box {
+  width: 60%;
+  margin: 0 auto;
+}
+.faq_box h2 {
+  margin-top: 100px;
+}
+.faq_box p {
+  margin: 20px 0;
+}
+.faq_box ol li {
+  list-style-position: inside;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  background-color: #808080;
+  margin-top: 60px;
+}
